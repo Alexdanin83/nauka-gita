@@ -8,3 +8,8 @@ body {
     font-family: $font-text;
     line-height: 1.7;
 }
+.contanier {
+display: flex;
+}
+
+
