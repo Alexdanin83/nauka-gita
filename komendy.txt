@@ -1,0 +1,16 @@
+npm install --save-dev browser-sync
+
+//**********autoprefixer**********//
+
+npm install --save-dev --global autoprefixer-cli
+
+//use  o- output file    2 parametr plik w którym powstanie  3 parametr plik ¿ród³owy
+autoprefixer-cli -o css/main.style.css css/style.css
+
+//**********html-validate**********//
+npm install --save-dev -g html-validate
+//used
+html-validate index.html
+
+
+
